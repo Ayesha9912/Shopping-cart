@@ -13,7 +13,7 @@ function Cartpage(){
       <ul>
         {selector.map((item, index)=>{
           return(
-            <li key={index} className='flex border w-full h-fit p-0 mt-5'>
+            <li key={index} className='flex border~ w-full h-fit p-0 mt-5'>
               <div className='w-[300px]'>
                 <img src={item.image} alt={item.name}/>
               </div>
